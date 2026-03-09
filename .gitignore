@@ -1,0 +1,7 @@
+.DS_Store
+cypress/screenshots/
+cypress/videos/
+cypress/cucumber-json/
+cypress/cucumber-report/
+node_modules/
+temp/
