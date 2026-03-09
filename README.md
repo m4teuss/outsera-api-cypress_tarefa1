@@ -31,6 +31,7 @@
 
 ### Estrutura de diretórios
 
+ ```
 api-testes/
 ├── cypress/
 │   ├── e2e/
@@ -56,4 +57,5 @@ api-testes/
 ├── cypress.config.js
 ├── package-lock.json
 ├── package.json
-└── README.md                 
+└── README.md    
+```
