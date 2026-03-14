@@ -7,7 +7,7 @@
         "cy:open": "cypress open",
         "cy:run": "cypress run",
         "report:merge": "node reporter.js",
-        "test": "npm run cy:run && npm run report:merge"
+        "test": "cypress run"
     },
     "devDependencies": {
         "cypress": "^14.5.4",
