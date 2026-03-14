@@ -4,9 +4,9 @@
     "private": true,
     "description": "Testes de api",
     "scripts": {
-        "cy:chrome": "cypress run -b chrome",
-        "cy:firefox": "cypress run -b firefox",
-        "cy:report": "node ./cypress/report.js",
-        "cy:open:dev": "cypress open"
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "report:merge": "node reporter.js",
+        "test": "npm run cy:run && npm run report:merge"
     }
 }
