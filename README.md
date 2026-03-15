@@ -1,4 +1,4 @@
-# PROJETO OUTSERA WEB
+# PROJETO OUTSERA API
 
 ### Objetivo 
 - Este projeto consiste em uma suíte de testes automatizados voltada para a validação de fluxos de API (CRUD), utilizando o framework Cypress. A estrutura foi desenhada seguindo as melhores práticas de organização, separando a lógica de execução (specs) da lógica de negócio e helpers.
@@ -24,8 +24,7 @@
 
 ### Executar os testes
 
-- Executar os testes via headless `$ npx cypress run`
-
+- Executar os testes via headless `$ npx cypress run` ou `$ npm test`
 - Executar os testes via interface `$ npx cypress open`
 
 
